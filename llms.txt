@@ -1,0 +1,18 @@
+# Void
+
+> Void is a Discord bot by Voidone for moderation, welcome messages, levels and logging. It is in beta, free while testing, and offline until the beta release.
+
+## Facts
+- Name: Void (also written Voidone Void or Void Discord Bot), made by Voidone
+- Type: Discord bot
+- Features: auto-moderation, warnings and timeouts; welcome messages, starter roles and role buttons; XP, rank cards and level-up announcements; logging of message edits and deletes, joins and leaves, and moderator actions
+- Planned: a visual command builder and an embed designer
+- Price: free during the beta; afterwards a free tier and one paid plan
+- Status: beta, not yet public. The release will be announced in the support server
+- Not affiliated with Discord
+
+## Links
+- Website: https://bot.voidone.fun/
+- Support server: https://dsc.gg/voidone
+- Careers: https://voidone.fun/careers
+- Main site: https://voidone.fun

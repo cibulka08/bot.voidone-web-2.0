@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Void Discord Bot by Voidone | Moderation & Levels (Beta)</title>
+<meta name="description" content="Void is a Discord bot by Voidone for moderation, welcome messages, levels and logging. Now in beta and free while testing. Join the support server.">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<meta name="theme-color" content="#000000">
+<meta name="application-name" content="Void">
+<meta name="apple-mobile-web-app-title" content="Void">
+<meta name="author" content="Voidone">
+<link rel="canonical" href="https://bot.voidone.fun/">
+<link rel="alternate" hreflang="en" href="https://bot.voidone.fun/">
+<link rel="alternate" hreflang="x-default" href="https://bot.voidone.fun/">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Void by Voidone">
+<meta property="og:title" content="Void Discord Bot by Voidone | Moderation & Levels (Beta)">
+<meta property="og:description" content="A Discord bot for moderation, welcome messages, levels and logging, built by Voidone. In beta and free while we test it.">
+<meta property="og:url" content="https://bot.voidone.fun/">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://bot.voidone.fun/og-image.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Void, the Discord bot by Voidone">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Void Discord Bot by Voidone | Moderation & Levels (Beta)">
+<meta name="twitter:description" content="A Discord bot for moderation, welcome messages, levels and logging, built by Voidone. In beta and free while we test it.">
+<meta name="twitter:image" content="https://bot.voidone.fun/og-image.png">
+<meta name="twitter:image:alt" content="Void, the Discord bot by Voidone">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://voidone.fun/#org","name":"Voidone","alternateName":["Void","Void Bot"],"url":"https://voidone.fun","logo":"https://bot.voidone.fun/favicon.png","sameAs":["https://dsc.gg/voidone"]},{"@type":"WebSite","@id":"https://bot.voidone.fun/#site","url":"https://bot.voidone.fun/","name":"Void","alternateName":["Void Discord Bot","Voidone Void"],"inLanguage":"en","publisher":{"@id":"https://voidone.fun/#org"}},{"@type":"WebPage","@id":"https://bot.voidone.fun/#page","url":"https://bot.voidone.fun/","name":"Void Discord Bot by Voidone | Moderation & Levels (Beta)","description":"Void is a Discord bot by Voidone for moderation, welcome messages, levels and logging. Now in beta and free while testing. Join the support server.","isPartOf":{"@id":"https://bot.voidone.fun/#site"},"about":{"@id":"https://bot.voidone.fun/#app"},"primaryImageOfPage":{"@type":"ImageObject","url":"https://bot.voidone.fun/og-image.png","width":1200,"height":630},"inLanguage":"en"},{"@type":"SoftwareApplication","@id":"https://bot.voidone.fun/#app","name":"Void","alternateName":["Void Discord Bot","Voidone Void"],"url":"https://bot.voidone.fun/","applicationCategory":"UtilitiesApplication","applicationSubCategory":"Discord bot","operatingSystem":"Discord","description":"A Discord bot for moderation, welcome messages, levels and logging.","featureList":["Auto-moderation, warnings and timeouts", "Welcome messages, starter roles and role buttons", "XP, rank cards, level-up announcements and role rewards", "Logging of message edits and deletes, joins and leaves, and moderator actions"],"image":"https://bot.voidone.fun/og-image.png","publisher":{"@id":"https://voidone.fun/#org"},"offers":{"@type":"Offer","price":"0","priceCurrency":"USD","description":"Free during the beta"}},{"@type":"FAQPage","@id":"https://bot.voidone.fun/#faq","mainEntity":[{"@type":"Question","name":"What is Void?","acceptedAnswer":{"@type":"Answer","text":"Void is a Discord bot by Voidone. It handles moderation, welcome messages, levels and logging for your Discord server."}},{"@type":"Question","name":"Who makes Void?","acceptedAnswer":{"@type":"Answer","text":"Void is made by Voidone, a small team that builds tools for Discord communities. You can find us on our support server."}},{"@type":"Question","name":"What can the Void Discord bot do?","acceptedAnswer":{"@type":"Answer","text":"Void can moderate your server with auto-moderation, warnings and timeouts, greet new members and give them roles, track XP and levels, and log message edits, deletes, joins and moderator actions."}},{"@type":"Question","name":"Can I add Void to my Discord server now?","acceptedAnswer":{"@type":"Answer","text":"Not yet. Void stays offline until the beta release, so the invite isn't available. Join the support server to hear the moment it opens."}},{"@type":"Question","name":"Is Void free?","acceptedAnswer":{"@type":"Answer","text":"Void is free during the beta. Afterwards there will be a free tier and one paid plan. Details will be announced in the support server."}},{"@type":"Question","name":"When does the Void beta start?","acceptedAnswer":{"@type":"Answer","text":"We'll announce the beta release in the support server. Join it to be among the first to add Void to your server."}},{"@type":"Question","name":"What is planned for Void?","acceptedAnswer":{"@type":"Answer","text":"A visual command builder for your own custom commands and an embed designer for the messages Void sends are planned."}},{"@type":"Question","name":"Is Void affiliated with Discord?","acceptedAnswer":{"@type":"Answer","text":"No. Void is an independent bot made by Voidone and is not affiliated with or endorsed by Discord."}},{"@type":"Question","name":"Where can I get help with Void?","acceptedAnswer":{"@type":"Answer","text":"In the support server on Discord, where the team and other server owners can answer your questions."}},{"@type":"Question","name":"Can I join the Void team?","acceptedAnswer":{"@type":"Answer","text":"Yes. We're looking for developers, designers and moderators. See the open roles on our careers page."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>if(!matchMedia("(prefers-reduced-motion:reduce)").matches)document.documentElement.classList.add("js")</script>
+<style>
+/* Tokens: colour from the logo and banner (black, white, smoke grey). */
+:root{--bg:#000;--surface:#0e0e0e;--line:#262626;--text:#fff;--muted:#8f8f95;--inv:0;
+  --kbg:rgba(0,0,0,.9);--kfg:#fff;--kblend:multiply;
+  --r-s:8px;--r-m:12px;--r-l:16px;--font:'Poppins',system-ui,-apple-system,'Segoe UI',sans-serif;--ease:cubic-bezier(.2,.7,.2,1);
+  box-sizing:border-box}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#fff;--surface:#f5f5f6;--line:#e3e3e5;--text:#000;--muted:#5d5d63;--inv:1;--kbg:rgba(255,255,255,.9);--kfg:#000;--kblend:screen}}
+:root[data-theme="light"]{--bg:#fff;--surface:#f5f5f6;--line:#e3e3e5;--text:#000;--muted:#5d5d63;--inv:1;--kbg:rgba(255,255,255,.9);--kfg:#000;--kblend:screen}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px;background:var(--bg)}
+body{background:var(--bg);color:var(--text);font-family:var(--font);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:clip}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--text);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 28px}
+.logo{display:block;flex:none;background:url(data:image/png;base64,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) center/contain no-repeat;filter:invert(var(--inv))}
+.nt{display:inline-block;flex:none;width:10px;height:10px;background:currentColor;clip-path:polygon(0 0,67% 0,100% 33%,33% 33%,33% 100%,0 67%);transition:transform .3s var(--ease)}
+[hidden]{display:none!important}
+
+.btn{position:relative;overflow:hidden;isolation:isolate;display:inline-flex;align-items:center;justify-content:center;padding:14px 26px;border-radius:var(--r-s);font:inherit;font-size:15px;font-weight:500;border:1px solid var(--text);background:var(--text);color:var(--bg);cursor:pointer;transition:color .3s}
+.btn::before{content:"";position:absolute;inset:-1px;z-index:-1;background:var(--bg);transform:translateY(101%);transition:transform .4s var(--ease)}
+.btn:hover{color:var(--text)}.btn:hover::before{transform:none}
+.btn.line{background:transparent;color:var(--text);border-color:color-mix(in srgb,var(--text) 35%,transparent)}
+.btn.line::before{background:var(--text)}.btn.line:hover{color:var(--bg);border-color:var(--text)}
+.btn.sm{padding:9px 18px;font-size:14px}
+
+nav{position:fixed;top:0;left:0;right:0;z-index:30;padding-top:env(safe-area-inset-top,0px);border-bottom:1px solid transparent;transition:background .3s,border-color .3s}
+nav.on{background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(14px);border-bottom-color:var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:600;font-size:18px}
+.links{display:flex;align-items:center;gap:30px;font-size:14px;color:color-mix(in srgb,var(--text) 70%,transparent)}
+.links a:not(.btn):hover{color:var(--text)}
+
+/* hero: the word "Void" is a window onto the smoke */
+.hero{--F:min(40vw,54svh);position:relative;isolation:isolate;overflow:hidden;padding:calc(84px + var(--F)*.8 + 32px) 0 72px;background:var(--bg)}
+#gl{position:absolute;inset:0;width:100%;height:100%;z-index:0;display:block}
+.knock{position:absolute;inset:0;z-index:1;pointer-events:none;padding-top:84px;color:var(--text)}
+.glok .knock{background:var(--kbg);color:var(--kfg);mix-blend-mode:var(--kblend)}
+.knock .wrap{padding-left:max(28px,calc((100vw - 1120px)/2 + 28px));padding-right:0;max-width:none}
+.knock span{display:block;font-size:var(--F);line-height:.8;font-weight:700;letter-spacing:-.055em;margin-left:-.04em;white-space:nowrap}
+.hcopy{position:relative;z-index:2}
+h1{font-size:clamp(26px,3.6vw,46px);line-height:1.12;font-weight:600;letter-spacing:-.03em;max-width:760px;margin-bottom:20px}
+.lead{font-size:clamp(16px,1.5vw,18px);color:color-mix(in srgb,var(--text) 72%,transparent);max-width:520px;margin-bottom:32px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:40px}
+.pres{display:inline-flex;align-items:center;gap:14px}
+.avw{position:relative;flex:none;width:44px;height:44px;border-radius:50%;background:#000;border:1px solid color-mix(in srgb,var(--text) 25%,transparent);padding:10px;--inv:0}
+.avw .logo{width:100%;height:100%}
+.st{position:absolute;right:-4px;bottom:-4px;width:16px;height:16px;border-radius:50%;background:#80848e;border:3px solid var(--bg);display:grid;place-items:center}
+.st::after{content:"";width:6px;height:6px;border-radius:50%;background:var(--bg)}
+.pres b{display:block;font-weight:600;font-size:15px;line-height:1.3}
+.tag{font-size:10.5px;font-weight:600;background:var(--text);color:var(--bg);border-radius:4px;padding:1px 5px;margin-left:6px;vertical-align:1px}
+.pres small{display:block;font-size:13px;color:var(--muted)}
+.js .knock span{opacity:0;transform:translateY(5%);animation:rise 1.6s var(--ease) .1s forwards}
+.js .fade{opacity:0;animation:fade .9s var(--ease) forwards}
+@keyframes rise{to{opacity:1;transform:none}}@keyframes fade{from{transform:translateY(14px)}to{opacity:1;transform:none}}
+.js h1.fade{animation-delay:.7s}.js .lead.fade{animation-delay:.85s}.js .cta.fade{animation-delay:1s}.js .pres.fade{animation-delay:1.15s}
+
+.sec{display:grid;grid-template-columns:4fr 8fr;gap:72px;padding:110px 0;border-top:1px solid var(--line)}
+h2{font-size:clamp(28px,3.4vw,42px);line-height:1.1;font-weight:600;letter-spacing:-.035em}
+.sec .l p{color:var(--muted);margin-top:16px;max-width:330px}
+
+/* scroll story */
+.story{position:relative;border-top:1px solid var(--line)}
+.story.live{height:calc(100svh*3.4)}
+.pin{max-width:1120px;margin:0 auto;padding:96px 28px;display:grid;grid-template-columns:6fr 5fr;gap:56px;align-items:center}
+.story.live .pin{position:sticky;top:0;height:100svh;padding-top:84px;padding-bottom:40px}
+.sh{grid-column:1/-1;font-size:15px;font-weight:500;letter-spacing:0;color:var(--muted);margin-bottom:0}
+.story.live .sh{position:absolute;top:84px;left:max(28px,calc((100vw - 1120px)/2 + 28px))}
+.words{display:flex;flex-direction:column;gap:10px}
+.w h3{font-size:clamp(46px,8.2vw,118px);line-height:.98;font-weight:700;letter-spacing:-.055em}
+.w button{font:inherit;font-weight:inherit;letter-spacing:inherit;color:color-mix(in srgb,var(--text) 22%,transparent);background:none;border:0;padding:0;text-align:left;cursor:pointer;transition:color .5s var(--ease)}
+.w.on button,.story:not(.live) .w button{color:var(--text)}
+.w p{color:var(--muted);max-width:430px;font-size:17px;max-height:0;opacity:0;overflow:hidden;transition:max-height .6s var(--ease),opacity .5s,margin .5s}
+.w.on p,.story:not(.live) .w p{max-height:150px;opacity:1;margin:8px 0 10px}
+.story:not(.live) .words{gap:34px}
+.stage{position:relative;min-height:450px}
+.story:not(.live) .stage{min-height:0}
+.scn{position:absolute;inset:0;display:flex;align-items:center;opacity:0;transform:translateY(26px) scale(.985);transition:opacity .6s var(--ease),transform .6s var(--ease);pointer-events:none}
+.scn.on{opacity:1;transform:none;pointer-events:auto}
+.story:not(.live) .scn{position:static;opacity:1;transform:none;margin-bottom:20px}
+.scn>.dcw{width:100%}
+.dcw{background:#17171b;color:#f2f3f5;font-size:14px;border:1px solid #2b2b31;border-radius:var(--r-l);overflow:hidden;box-shadow:0 30px 70px -35px rgba(0,0,0,.7)}
+.dch{padding:13px 20px;border-bottom:1px solid #2b2b31;color:#9a9aa3;font-size:13px}
+.dcb{padding:22px 20px;display:flex;flex-direction:column;gap:16px}
+.m{display:flex;gap:12px}
+.dav{flex:none;width:36px;height:36px;border-radius:50%;background:#34343b;display:grid;place-items:center;font-weight:600;font-size:14px}
+.dav.bot{background:#000;padding:8px;--inv:0}.dav.bot .logo{width:100%;height:100%}
+.dcw .who{font-weight:600}.dcw .tag{background:#fff;color:#000}
+.bw{min-width:0}
+.dcw .emb{margin-top:6px;border-left:4px solid #fff;background:#1f1f25;border-radius:6px;padding:11px 14px;color:#dcdde1}
+.dim2{color:#9a9aa3;font-size:12.5px}
+.bt{display:inline-block;background:#4e5058;border-radius:6px;padding:5px 12px;font-size:13px;margin:10px 8px 0 0}
+.xpb{height:6px;border-radius:9px;background:#2d2d34;margin:8px 0 5px;overflow:hidden}.xpb i{display:block;height:100%;width:0;background:#fff;border-radius:9px;transition:width 1.2s .3s var(--ease)}
+.scn.on .xpb i,.story:not(.live) .xpb i{width:72%}
+.sysl{display:flex;align-items:center;gap:10px;color:#9a9aa3;font-size:13px;padding-left:2px}
+.sysl .nt{color:#9a9aa3;width:9px;height:9px}
+
+.road{list-style:none;padding:0;position:relative}
+.road::before{content:"";position:absolute;left:6px;top:12px;bottom:30px;width:1px;background:var(--line)}
+.road::after{content:"";position:absolute;left:6px;top:12px;bottom:30px;width:1px;background:var(--text);transform-origin:top;transform:scaleY(.32);transition:transform 1.6s var(--ease)}
+.js .road::after{transform:scaleY(0)}.js .road.in::after{transform:scaleY(.32)}
+.road li{position:relative;padding:0 0 44px 44px}
+.road .d{position:absolute;left:0;top:8px;width:13px;height:13px;border-radius:50%;border:1px solid var(--muted);background:var(--bg)}
+.road li.now .d{background:var(--text);border-color:var(--text);box-shadow:0 0 0 5px color-mix(in srgb,var(--text) 15%,transparent)}
+.road h3{font-size:19px;font-weight:600;letter-spacing:-.01em}
+.road p{color:var(--muted);max-width:480px;margin-top:2px}
+.road small{display:block;font-size:13px;color:var(--muted);margin-bottom:2px}
+.road li.now small{color:var(--text)}.road li:last-child{padding-bottom:0}
+
+details{border-top:1px solid var(--line)}details:last-of-type{border-bottom:1px solid var(--line)}
+summary{display:flex;align-items:center;gap:14px;padding:22px 0;cursor:pointer;list-style:none;font-weight:500;font-size:17px;transition:padding .3s var(--ease)}
+summary::-webkit-details-marker{display:none}summary:hover{padding-left:8px}
+summary h3{font:inherit;letter-spacing:0}
+details[open] summary .nt{transform:rotate(180deg)}
+details p{color:var(--muted);padding:0 0 24px 24px;max-width:600px;animation:fade .4s var(--ease) both}
+details p a{border-bottom:1px solid var(--muted);color:var(--text)}
+
+.join{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line)}
+.join>div{padding:80px 28px;display:flex;flex-direction:column;align-items:flex-start;gap:14px}
+.join>div+div{border-left:1px solid var(--line)}
+.join h2{font-size:clamp(26px,3vw,36px)}.join p{color:var(--muted);max-width:380px;margin-bottom:10px}
+.join>div:first-child{padding-left:max(28px,calc((100vw - 1120px)/2 + 28px))}
+.join>div:last-child{padding-right:max(28px,calc((100vw - 1120px)/2 + 28px))}
+footer{border-top:1px solid var(--line);padding:36px 0;color:var(--muted);font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+footer .brand{font-size:16px;color:var(--text)}
+.fl{display:flex;gap:28px;flex-wrap:wrap}.fl a:hover{color:var(--text)}
+
+.js .rv{opacity:0;transform:translateY(24px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.js .rv.in{opacity:1;transform:none}
+
+dialog{margin:auto;width:min(460px,calc(100% - 32px));padding:32px;border:1px solid var(--line);border-radius:var(--r-l);background:var(--surface);color:var(--text);box-shadow:0 40px 90px -30px rgba(0,0,0,.8)}
+dialog[open]{animation:pop .4s var(--ease)}
+@keyframes pop{from{opacity:0;transform:translateY(16px) scale(.97)}}
+dialog::backdrop{background:rgba(0,0,0,.6);backdrop-filter:blur(6px)}
+dialog .pres{margin-bottom:22px}
+dialog h2{font-size:26px;margin-bottom:10px}
+dialog p{color:var(--muted);margin-bottom:26px}
+.dact{display:flex;gap:10px;flex-wrap:wrap}
+
+@media (max-width:900px){
+  .wrap{padding:0 22px}.links a:not(.btn){display:none}
+  .hero{padding-bottom:56px}
+  .knock .wrap{padding-left:22px}
+  .sec{grid-template-columns:1fr;gap:32px;padding:72px 0}
+  .story.live{height:calc(100svh*3.2)}
+  .pin{grid-template-columns:1fr;gap:18px;padding:80px 22px 56px}
+  .story.live .pin{padding-top:96px;padding-bottom:24px;align-content:center}
+  .story.live .sh{left:22px;top:80px}
+  .w h3{font-size:clamp(40px,13vw,72px)}.w p{font-size:15px}
+  .stage{min-height:330px}
+  .join{grid-template-columns:1fr}.join>div,.join>div:first-child,.join>div:last-child{padding:56px 22px}.join>div+div{border-left:0;border-top:1px solid var(--line)}
+  footer .wrap{flex-direction:column;align-items:flex-start}
+}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav id="nav"><div class="wrap">
+  <a href="/" class="brand" aria-label="Void, home"><span class="logo" style="width:28px;height:28px" aria-hidden="true"></span>Void</a>
+  <div class="links">
+    <a href="#features">Features</a><a href="#beta">Beta</a><a href="#faq">FAQ</a>
+    <a href="https://dsc.gg/voidone" target="_blank" rel="noopener">Support server</a>
+    <a class="btn sm" href="#beta" data-invite>Invite Void</a>
+  </div>
+</div></nav>
+
+<header class="hero" id="hero">
+  <canvas id="gl" aria-hidden="true"></canvas>
+  <div class="knock" aria-hidden="true"><div class="wrap"><span>Void</span></div></div>
+  <div class="wrap hcopy">
+    <h1 class="fade">A Discord bot for moderation, levels and welcome messages.</h1>
+    <p class="lead fade">Void by Voidone keeps your server safe, greets new members and rewards the people who are active. It's in beta and free while we test it.</p>
+    <div class="cta fade">
+      <a class="btn" href="#beta" data-invite>Invite Void</a>
+      <a class="btn line" href="https://dsc.gg/voidone" target="_blank" rel="noopener">Join the support server</a>
+    </div>
+    <div class="pres fade"><span class="avw"><span class="logo" aria-hidden="true"></span><i class="st" aria-hidden="true"></i></span><div><b>Void<span class="tag">BOT</span></b><small>Offline until the Beta release</small></div></div>
+  </div>
+</header>
+
+<main>
+<section class="story" id="features" aria-labelledby="fh">
+  <div class="pin">
+    <h2 class="sh" id="fh">What Void does</h2>
+    <div class="words">
+      <article class="w"><h3><button type="button">Moderation</button></h3><p>Auto-moderation removes spam and unwanted links. Warnings, timeouts and a full history keep your team informed.</p></article>
+      <article class="w"><h3><button type="button">Welcome</button></h3><p>Greet new members with your own message, give them a starter role and let them pick roles with buttons.</p></article>
+      <article class="w"><h3><button type="button">Levels</button></h3><p>Members earn XP from chatting. Show rank cards, announce level-ups and hand out role rewards.</p></article>
+      <article class="w"><h3><button type="button">Logs</button></h3><p>Keep a record of message edits and deletes, joins and leaves, and every moderator action.</p></article>
+    </div>
+    <div class="stage">
+      <div class="scn"><div class="dcw" role="img" aria-label="Example: Void removes a spam link and warns the member."><div class="dch"># general</div><div class="dcb">
+        <div class="m"><div class="dav">S</div><div class="bw"><div class="who">Sam</div><div>Free Nitro for everyone: discord.gg/free-nitro</div></div></div>
+        <div class="m"><div class="dav bot"><span class="logo"></span></div><div class="bw"><div class="who">Void<span class="tag">BOT</span></div><div class="emb"><b>Message removed</b><br>Links to other servers aren't allowed here.</div></div></div>
+        <div class="m"><div class="dav bot"><span class="logo"></span></div><div class="bw"><div class="who">Void<span class="tag">BOT</span></div><div class="emb"><b>Sam was warned</b><br>The next violation is a 10 minute timeout.</div></div></div>
+      </div></div></div>
+      <div class="scn"><div class="dcw" role="img" aria-label="Example: Void welcomes a new member and offers role buttons."><div class="dch"># welcome</div><div class="dcb">
+        <div class="sysl"><span class="nt" aria-hidden="true"></span>Alex joined the server.</div>
+        <div class="m"><div class="dav bot"><span class="logo"></span></div><div class="bw"><div class="who">Void<span class="tag">BOT</span></div><div class="emb"><b>Welcome to the server, Alex!</b><br>Say hi in #general.<div><span class="bt">Gamer</span><span class="bt">Creator</span><span class="bt">Developer</span></div></div></div></div>
+        <div class="sysl"><span class="nt" aria-hidden="true"></span>Alex was given the Member role.</div>
+      </div></div></div>
+      <div class="scn"><div class="dcw" role="img" aria-label="Example: Void shows a rank card and announces a level-up."><div class="dch"># general</div><div class="dcb">
+        <div class="m"><div class="dav">A</div><div class="bw"><div class="who">Alex</div><div>gg, that was a fun game</div></div></div>
+        <div class="m"><div class="dav bot"><span class="logo"></span></div><div class="bw"><div class="who">Void<span class="tag">BOT</span></div><div class="emb"><b>Alex</b><br>Level 12<div class="xpb"><i></i></div><span class="dim2">1,840 / 2,500 XP</span></div></div></div>
+        <div class="m"><div class="dav bot"><span class="logo"></span></div><div class="bw"><div class="who">Void<span class="tag">BOT</span></div><div>Alex reached <b>level 13</b>.</div></div></div>
+        <div class="sysl"><span class="nt" aria-hidden="true"></span>Alex received the Regular role.</div>
+      </div></div></div>
+      <div class="scn"><div class="dcw" role="img" aria-label="Example: Void posts moderator actions and deleted messages to a log channel."><div class="dch"># mod-log</div><div class="dcb">
+        <div class="m"><div class="dav bot"><span class="logo"></span></div><div class="bw"><div class="who">Void<span class="tag">BOT</span></div><div class="emb"><b>Message deleted</b><br>Sam in #general<br><span class="dim2">Free Nitro for everyone...</span></div></div></div>
+        <div class="m"><div class="dav bot"><span class="logo"></span></div><div class="bw"><div class="who">Void<span class="tag">BOT</span></div><div class="emb"><b>Member warned</b><br>Sam, by Kim<br><span class="dim2">Reason: spam link</span></div></div></div>
+        <div class="m"><div class="dav bot"><span class="logo"></span></div><div class="bw"><div class="who">Void<span class="tag">BOT</span></div><div class="emb"><b>Member joined</b><br>Alex</div></div></div>
+      </div></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap sec" id="beta">
+  <div class="l rv"><h2>Where Void is at.</h2><p>Void is free during the beta. After that there will be a free tier and one paid plan.</p></div>
+  <ol class="road" id="road">
+    <li class="now"><span class="d"></span><small>Now</small><h3>Building and testing</h3><p>We're finishing the first modules of the Void Discord bot.</p></li>
+    <li><span class="d"></span><small>Beta release</small><h3>Void goes online</h3><p>The bot stays offline until then. We'll announce the release in the support server.</p></li>
+    <li><span class="d"></span><small>After the beta</small><h3>More tools for your server</h3><p>A visual command builder and an embed designer are planned, together with a free tier and one paid plan.</p></li>
+  </ol>
+</section>
+
+<section class="wrap sec" id="faq">
+  <div class="l rv"><h2>Questions about Void.</h2></div>
+  <div class="rv">
+<details><summary><span class="nt" aria-hidden="true"></span><h3>What is Void?</h3></summary><p>Void is a Discord bot by Voidone. It handles moderation, welcome messages, levels and logging for your Discord server.</p></details>
+<details><summary><span class="nt" aria-hidden="true"></span><h3>Who makes Void?</h3></summary><p>Void is made by Voidone, a small team that builds tools for Discord communities. You can find us on our support server.</p></details>
+<details><summary><span class="nt" aria-hidden="true"></span><h3>What can the Void Discord bot do?</h3></summary><p>Void can moderate your server with auto-moderation, warnings and timeouts, greet new members and give them roles, track XP and levels, and log message edits, deletes, joins and moderator actions.</p></details>
+<details><summary><span class="nt" aria-hidden="true"></span><h3>Can I add Void to my Discord server now?</h3></summary><p>Not yet. Void stays offline until the beta release, so the invite isn't available. Join the support server to hear the moment it opens.</p></details>
+<details><summary><span class="nt" aria-hidden="true"></span><h3>Is Void free?</h3></summary><p>Void is free during the beta. Afterwards there will be a free tier and one paid plan. Details will be announced in the support server.</p></details>
+<details><summary><span class="nt" aria-hidden="true"></span><h3>When does the Void beta start?</h3></summary><p>We'll announce the beta release in the support server. Join it to be among the first to add Void to your server.</p></details>
+<details><summary><span class="nt" aria-hidden="true"></span><h3>What is planned for Void?</h3></summary><p>A visual command builder for your own custom commands and an embed designer for the messages Void sends are planned.</p></details>
+<details><summary><span class="nt" aria-hidden="true"></span><h3>Is Void affiliated with Discord?</h3></summary><p>No. Void is an independent bot made by Voidone and is not affiliated with or endorsed by Discord.</p></details>
+<details><summary><span class="nt" aria-hidden="true"></span><h3>Where can I get help with Void?</h3></summary><p>In the support server on Discord, where the team and other server owners can answer your questions.</p></details>
+<details><summary><span class="nt" aria-hidden="true"></span><h3>Can I join the Void team?</h3></summary><p>We're looking for developers, designers and moderators. See the open roles on our <a href="https://voidone.fun/careers">careers page</a>.</p></details>
+  </div>
+</section>
+
+<section class="join">
+  <div><h2>Questions, bugs or ideas?</h2><p>The support server is where we talk with beta testers and announce every update.</p><a class="btn" href="https://dsc.gg/voidone" target="_blank" rel="noopener">Join the support server</a></div>
+  <div><h2>Want to help build Void?</h2><p>We're a small team and we're looking for developers, designers and moderators.</p><a class="btn line" href="https://voidone.fun/careers">See open roles</a></div>
+</section>
+</main>
+
+<footer><div class="wrap">
+  <div class="brand"><span class="logo" style="width:24px;height:24px" aria-hidden="true"></span>Void by Voidone</div>
+  <div class="fl"><a href="https://dsc.gg/voidone" target="_blank" rel="noopener">Support server</a><a href="https://voidone.fun/careers">Careers</a><a href="https://voidone.fun">voidone.fun</a></div>
+  <span>© 2026 Void. Not affiliated with Discord.</span>
+</div></footer>
+
+<dialog id="off" aria-labelledby="offt">
+  <div class="pres"><span class="avw"><span class="logo" aria-hidden="true"></span><i class="st" aria-hidden="true"></i></span><div><b>Void<span class="tag">BOT</span></b><small>Offline</small></div></div>
+  <h2 id="offt">Void is offline.</h2>
+  <p>The bot stays offline until the Beta release, so you can't add it to your server yet. Join the support server and we'll tell you the moment it opens.</p>
+  <div class="dact">
+    <a class="btn" href="https://dsc.gg/voidone" target="_blank" rel="noopener">Join the support server</a>
+    <a class="btn line" id="go" href="#" target="_blank" rel="noopener" hidden>Continue to invite</a>
+    <button class="btn line" type="button" id="offx">Close</button>
+  </div>
+</dialog>
+
+<script>
+(function(){
+  // Invite link. The offline notice shows first, with a "Continue to invite" button.
+  var INVITE_URL="https://discord.com/oauth2/authorize?client_id=1545155907355279411&permissions=8&integration_type=0&scope=bot";
+  var OFFLINE_NOTICE=true; // set to false to send people straight to the invite link
+  var $=function(id){return document.getElementById(id)};
+  var calm=matchMedia("(prefers-reduced-motion:reduce)").matches;
+
+  var dlg=$("off");
+  if(INVITE_URL){$("go").href=INVITE_URL;$("go").hidden=false}
+  document.querySelectorAll("[data-invite]").forEach(function(a){a.addEventListener("click",function(e){e.preventDefault();if(!OFFLINE_NOTICE&&INVITE_URL){window.open(INVITE_URL,"_blank","noopener");return}if(dlg.showModal)dlg.showModal();else dlg.setAttribute("open","")})});
+  function closeD(){if(dlg.close)dlg.close();else dlg.removeAttribute("open")}
+  $("offx").addEventListener("click",closeD);
+  dlg.addEventListener("click",function(e){if(e.target===dlg)closeD()});
+
+  var nav=$("nav");function sc(){nav.classList.toggle("on",window.scrollY>12)}sc();addEventListener("scroll",sc,{passive:true});
+
+  /* scroll story: the page pins and the word, the text and the Discord example change with scroll */
+  var st=$("features"),ws=[].slice.call(st.querySelectorAll(".w")),sn=[].slice.call(st.querySelectorAll(".scn")),ai=-1,tick=false;
+  function setA(i){if(i===ai)return;ai=i;
+    ws.forEach(function(w,j){w.classList.toggle("on",j===i);w.querySelector("button").setAttribute("aria-current",j===i?"true":"false")});
+    sn.forEach(function(c,j){c.classList.toggle("on",j===i);c.setAttribute("aria-hidden",j===i?"false":"true")})}
+  function onS(){tick=false;var r=st.getBoundingClientRect(),tot=st.offsetHeight-innerHeight;if(tot<=0)return;setA(Math.floor(Math.min(Math.max(-r.top/tot,0),.999)*ws.length))}
+  if(!calm){
+    st.classList.add("live");setA(0);onS();
+    addEventListener("scroll",function(){if(!tick){tick=true;requestAnimationFrame(onS)}},{passive:true});addEventListener("resize",onS);
+    ws.forEach(function(w,j){w.querySelector("button").addEventListener("click",function(){var tot=st.offsetHeight-innerHeight,top=st.getBoundingClientRect().top+scrollY;scrollTo({top:top+((j+.5)/ws.length)*tot,behavior:"smooth"})})});
+  }
+
+  /* reveals (one pass, then done) */
+  if(!calm&&"IntersectionObserver" in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{threshold:.25});
+    document.querySelectorAll(".rv,#road").forEach(function(el){io.observe(el)});
+  }else{document.querySelectorAll(".rv,#road").forEach(function(el){el.classList.add("in")})}
+
+  /* hero smoke (WebGL) shows through the letters of "Void" and follows the pointer */
+  var cv=$("gl"),hero=$("hero"),gl=cv.getContext("webgl",{antialias:false,alpha:false,powerPreference:"low-power"});
+  if(gl){
+    var vs="attribute vec2 p;void main(){gl_Position=vec4(p,0.,1.);}";
+    var fs="precision highp float;uniform vec2 r;uniform float t;uniform vec2 m;uniform float inv;"+
+    "float h(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}"+
+    "float n(vec2 p){vec2 i=floor(p),f=fract(p);f=f*f*(3.-2.*f);return mix(mix(h(i),h(i+vec2(1.,0.)),f.x),mix(h(i+vec2(0.,1.)),h(i+vec2(1.,1.)),f.x),f.y);}"+
+    "float fbm(vec2 p){float a=.5,s=0.;for(int i=0;i<5;i++){s+=a*n(p);p=p*2.02+vec2(1.7,9.2);a*=.5;}return s;}"+
+    "void main(){vec2 p=(gl_FragCoord.xy-.5*r)/r.y;vec2 mm=(m-.5*r)/r.y;"+
+    "vec2 q=vec2(fbm(p*1.3+t*.05),fbm(p*1.3+vec2(5.2,1.3)-t*.04));"+
+    "float d=length(p-mm);vec2 w=p+(p-mm)*exp(-d*2.6)*.5;"+
+    "float f=fbm(w*1.1+q*2.1+vec2(t*.035,-t*.025));float v=smoothstep(.18,.82,f);"+
+    "float c=pow(v,.85)*.96;c=inv>.5?1.-c*.88:c;gl_FragColor=vec4(vec3(c),1.);}";
+    function sh(type,src){var s=gl.createShader(type);gl.shaderSource(s,src);gl.compileShader(s);return s}
+    var pr=gl.createProgram();gl.attachShader(pr,sh(gl.VERTEX_SHADER,vs));gl.attachShader(pr,sh(gl.FRAGMENT_SHADER,fs));gl.linkProgram(pr);
+    if(gl.getProgramParameter(pr,gl.LINK_STATUS)){
+      gl.useProgram(pr);var bf=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,bf);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,3,-1,-1,3]),gl.STATIC_DRAW);
+      var loc=gl.getAttribLocation(pr,"p");gl.enableVertexAttribArray(loc);gl.vertexAttribPointer(loc,2,gl.FLOAT,false,0,0);
+      var U={r:gl.getUniformLocation(pr,"r"),t:gl.getUniformLocation(pr,"t"),m:gl.getUniformLocation(pr,"m"),inv:gl.getUniformLocation(pr,"inv")};
+      var W=1,H=1,tx=0,ty=0,mx=0,my=0,run=true,inv=0;
+      function size(){var s=Math.min(devicePixelRatio||1,1.5)*.5;W=cv.width=Math.max(2,Math.round(hero.clientWidth*s));H=cv.height=Math.max(2,Math.round(hero.clientHeight*s));gl.viewport(0,0,W,H);tx=mx=W*.55;ty=my=H*.75}
+      function readInv(){inv=parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--inv"))||0}
+      function draw(now){mx+=(tx-mx)*.06;my+=(ty-my)*.06;gl.uniform2f(U.r,W,H);gl.uniform1f(U.t,calm?14:now/1000);gl.uniform2f(U.m,mx,my);gl.uniform1f(U.inv,inv);gl.drawArrays(gl.TRIANGLES,0,3)}
+      function loop(now){if(run&&!document.hidden)draw(now);if(!calm)requestAnimationFrame(loop)}
+      size();readInv();addEventListener("resize",function(){size();if(calm)draw(0)});
+      matchMedia("(prefers-color-scheme:light)").addEventListener("change",function(){readInv();if(calm)draw(0)});
+      hero.addEventListener("pointermove",function(e){var r=hero.getBoundingClientRect();tx=(e.clientX-r.left)/r.width*W;ty=(1-(e.clientY-r.top)/r.height)*H});
+      if("IntersectionObserver" in window)new IntersectionObserver(function(es){run=es[0].isIntersecting}).observe(hero);
+      draw(0);hero.classList.add("glok");if(!calm)requestAnimationFrame(loop);
+    }
+  }
+})();
+</script>
+</body>
+</html>
